@@ -42,6 +42,7 @@ while True:
             amount=int(input("ENTER DEPOSIT AMOUNT:"))
             accounts[acc_no]["balance"]+=amount
             print(" *** AMOUNT DEPOSITED *** ")
+            save_account(accounts)
             print()
 
     elif(option=="w"):
@@ -75,3 +76,4 @@ while True:
     else:    
 
         print("INVALID OPTION")
+
