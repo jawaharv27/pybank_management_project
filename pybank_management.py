@@ -16,7 +16,7 @@ def save_account(accounts):
 accounts=load_account()
 
 while True:
-    acc_no=int(input("ENTER ACCOUNT.NO:"))
+    acc_no=(input("ENTER ACCOUNT.NO:"))
 
     if acc_no not in accounts:
         print("Creating A New Account...")
@@ -73,4 +73,5 @@ while True:
         break   
 
     else:    
+
         print("INVALID OPTION")
